@@ -27,3 +27,13 @@ console.log(array[1]);
 const mensagem2 = new String("    Bom     Dia    ");
 console.log(mensagem2);
 console.log(mensagem2.trim());
+
+
+//Includes = Procura uma substring formtro de um dtring
+console.log(mensagem.includes("Dia"));
+
+//Startswith = Verifica se s String inicia com algo
+console.log(mensagem.startsWith("Bom"));
+
+//endsWith = Verifica se s String termina com algo
+console.log(mensagem.endsWith("Dia"));

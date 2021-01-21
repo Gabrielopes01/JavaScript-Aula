@@ -29,3 +29,16 @@ console.log("TimeStamp = " + data.getTime());
 */
 //TimeStamp atual sem a variavel Data
 console.log(Date.now());
+
+
+//Usar o set ao inves do get, poderiamos alterar os valores
+let data3 = new Date("August 07 2001");
+//toDateString() = Transforma um Date em String com apenas a data 
+console.log(data3.toDateString());
+
+//toTimeString() = Transforma um Date em String com apenas o tempo 
+console.log(data3.toTimeString());
+
+//toISOString = Transforma um Date em um string no fromato que o banco de dados normalmente recebe
+console.log(data3.toISOString());
+
